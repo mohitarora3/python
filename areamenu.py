@@ -27,6 +27,7 @@ def main():
     elif choice==3:
         side=int(input('Enter side of square: '))
         print('area of square: ',area11.areaSquare(side))
+        
 
 if __name__=='__main__':
     main()
