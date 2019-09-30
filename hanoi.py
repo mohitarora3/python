@@ -9,9 +9,10 @@ def hanoi(n,source,spare,target):
                       from source to destination
                target: tower to which the discs needs to be transferred
     return value: none
+    
     '''
 
-    assert n>0
+  
     if n==1:
         print('Move a disc from ',source,' to ',target)
     else:
