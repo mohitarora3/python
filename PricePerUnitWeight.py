@@ -4,7 +4,7 @@ def main():
 
     '''
 
-    Objective: To compute price per unit weight of an item
+    Objective: To compute price per unit weight of a item
 
     Input Parameter: None
 
