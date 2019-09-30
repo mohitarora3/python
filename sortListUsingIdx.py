@@ -6,6 +6,7 @@ def findIdxMin(lst,idxlb=0,idxub=len(lst)-1):
     input parameters: 
         lst: list of elements
     output: minimum  element of the list
+    
     '''
     if idxlb==idxub:
         return idxlb
@@ -21,6 +22,7 @@ def sortList(lst,lb=0,idxminm=findIdxMin(lst)):
     input parameters: 
         lst: list of elements
     output: sorted list
+    
     '''
     if lb<len(lst)-1:
         if lst[lb]!=lst[idxminm]:
